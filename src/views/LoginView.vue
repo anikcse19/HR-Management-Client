@@ -9,6 +9,7 @@
             :icon="mdiAccount"
             name="email"
             type="email"
+            value="hr@test.com"
             autocomplete="email"
           />
         </FormField>
@@ -55,8 +56,8 @@ import LayoutGuest from '@/layouts/LayoutGuest.vue'
 import { useAuthStore } from '@/stores/AuthStore'
 
 const form = reactive({
-  email: '',
-  pass: '',
+  email: 'hr@test.com',
+  pass: '123456',
   remember: true
 })
 
